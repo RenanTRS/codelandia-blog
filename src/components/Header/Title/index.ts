@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
-export const Title = styled.h1`
-    color: #fff;
-    font-size: 1.8rem;
+export const Title = styled.div`
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 4rem;
 `;
