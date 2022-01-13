@@ -1,8 +1,10 @@
 import React from 'react';
 
+import { Home } from './page/Home';
+
 function App() {
   return (  
-    <h1>Teste</h1>
+    <Home />
   );
 }
 
