@@ -1,8 +1,12 @@
 import React from 'react';
+import { Reset } from './style/Reset';
 
 function App() {
   return (
-    <h1>Teste</h1>
+    <>
+      <Reset />
+      <h1>Teste</h1>
+    </>
   );
 }
 
