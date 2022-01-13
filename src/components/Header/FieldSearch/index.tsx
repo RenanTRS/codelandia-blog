@@ -10,7 +10,7 @@ export const FieldSearch = () => {
     return(
         <Field>
             <Label><img src={SearchImg} alt="Search" /></Label>
-            <Input />
+            <Input placeholder='Pesquisar no blog' />
         </Field>
     );
 }
