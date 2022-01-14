@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Container = styled.div`
+export const HeaderContainer = styled.div`
     max-width: 90rem;
 
     margin: 0 auto;

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { Header } from '../components/Header';
-import { Container } from '../components/Header/Container';
+import { HeaderContainer } from '../components/Header/HeaderContainer';
 import { Title } from '../components/Header/Title';
 import { FirstTitle } from '../components/Header/FirstTitle';
 import { SubTitle } from '../components/Header/SubTitle';
@@ -13,13 +13,13 @@ export function Home(){
     return (
         <>
             <Header>
-                <Container>
+                <HeaderContainer>
                     <Title>
                         <FirstTitle>Codelândia</FirstTitle>
                         <SubTitle>blog</SubTitle>
                     </Title>
                     <FieldSearch />
-                </Container>
+                </HeaderContainer>
             </Header>
             <Main>
                 <Post />
