@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 
 export const Main = styled.main`
-    background: #F3F5F7;
-
     padding: 5rem 2rem;
 
     display: flex;
