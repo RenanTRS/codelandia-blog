@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { Container } from '../components/Container';
 import { Header } from '../components/Header';
 import { HeaderContainer } from '../components/Header/HeaderContainer';
 import { Title } from '../components/Header/Title';
@@ -11,7 +12,7 @@ import { Post } from '../components/Post';
 
 export function Home(){
     return (
-        <>
+        <Container>
             <Header>
                 <HeaderContainer>
                     <Title>
@@ -24,6 +25,6 @@ export function Home(){
             <Main>
                 <Post />
             </Main>
-        </>
+        </Container>
     );
 }
