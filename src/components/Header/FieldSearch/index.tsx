@@ -1,5 +1,6 @@
 import React from 'react';
 
+import {SearchContext} from '../../../context/SearchContext'
 import { Field } from '../Field';
 import { Input } from '../Field/Input';
 import { Label } from '../Field/Label';
