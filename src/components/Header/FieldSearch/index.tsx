@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext, ChangeEvent} from 'react';
 
 import {SearchContext} from '../../../context/SearchContext'
 import { Field } from '../Field';
