@@ -7,6 +7,3 @@ export interface ISearchContext {
     search: string;
     setSearch: (NewState: string) => void;
 }
-/*export interface ISearch {
-    title: string;
-}*/
