@@ -8,10 +8,17 @@ import { Label } from '../Field/Label';
 import SearchImg from '../../../assets/img/search.svg';
 
 export const FieldSearch = () => {
+    const {search, setSearch} = useContext(SearchContext);
+
+    const changeInput = (event: ChangeEvent<HTMLInputElement>) => {
+        const {value} = event.target;
+        setSearch(value);
+    }
+
     return(
         <Field>
             <Label><img src={SearchImg} alt="Search" /></Label>
-            <Input placeholder='Pesquisar no blog' />
+            <Input placeholder='Pesquisar no blog' value={search} onChange={changeInput} />
         </Field>
     );
 }
