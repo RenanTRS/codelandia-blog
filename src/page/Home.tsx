@@ -8,7 +8,7 @@ import { FirstTitle } from '../components/Header/FirstTitle';
 import { SubTitle } from '../components/Header/SubTitle';
 import { FieldSearch } from '../components/Header/FieldSearch';
 import { Main } from '../components/Main';
-import { Post } from '../components/Post';
+import { Posts } from '../components/Posts';
 
 export function Home(){
     return (
@@ -23,7 +23,7 @@ export function Home(){
                 </HeaderContainer>
             </Header>
             <Main>
-                <Post />
+                <Posts />
             </Main>
         </Container>
     );

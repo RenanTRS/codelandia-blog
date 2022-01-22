@@ -5,7 +5,7 @@ import fakeData from '../../fakeData.json';
 
 import { CardPost } from '../CardPost';
 
-export const Post = () => {
+export const Posts = () => {
   const {search} = useContext(SearchContext);
     return (
         <>
