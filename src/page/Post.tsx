@@ -7,6 +7,7 @@ import { Card } from '../components/CardPost/Card';
 import { DatePost } from '../components/Posts/DatePost';
 import { TitlesPost } from '../components/Posts/TitlesPost';
 import { Text } from '../components/CardPost/Text';
+import { CardsPost } from '../components/Posts/CardsPost';
 
 
 export const Post = () => {
@@ -16,11 +17,11 @@ export const Post = () => {
     
     return(
         <ContainerPost>
-            <Card>
+            <CardsPost>
                 <DatePost>{data.date}</DatePost>
                 <TitlesPost>{data.title}</TitlesPost>
                 <Text>{data.text}</Text>
-            </Card>
+            </CardsPost>
         </ContainerPost>
     );
 }
