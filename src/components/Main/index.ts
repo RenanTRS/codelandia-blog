@@ -9,5 +9,9 @@ export const Main = styled.main`
     gap: 2.5rem;
 
     background-color: #F3F5F7;
+
+    a{
+        text-decoration: none;
+    }
 `;
 
