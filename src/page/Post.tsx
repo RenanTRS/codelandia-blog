@@ -3,11 +3,10 @@ import { useParams } from 'react-router-dom';
 import fakeData from '../fakeData.json';
 
 import { ContainerPost } from '../components/Posts/ContainerPost';
-import { Card } from '../components/CardPost/Card';
+import { CardsPost } from '../components/Posts/CardsPost';
 import { DatePost } from '../components/Posts/DatePost';
 import { TitlesPost } from '../components/Posts/TitlesPost';
 import { Text } from '../components/CardPost/Text';
-import { CardsPost } from '../components/Posts/CardsPost';
 
 
 export const Post = () => {
