@@ -6,12 +6,12 @@ import { SpanDate } from './SpanDate';
 import HeartImg from '../../assets/img/heart.svg'
 import { TextContainer } from './TextContainer';
 import { TitlePost } from './TitlePost';
-import { Text } from './Text';
+import { Description } from './Description';
 
 interface cardProps {
     date?: string;
     title?: string;
-    text?: string;
+    description?: string;
     key?: number;
 }
 
@@ -24,7 +24,7 @@ export const CardPost = (props: cardProps) => {
             </DateContainer>
             <TextContainer>
                 <TitlePost>{props.title}</TitlePost>
-                <Text>{props.text}</Text>
+                <Description>{props.description}</Description>
             </TextContainer>
         </Card>
     );

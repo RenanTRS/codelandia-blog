@@ -19,7 +19,7 @@ export const Posts = () => {
             }
           }).map((val, key) =>{
             return (
-                <Link to={`/post/${key}`} key={key}><CardPost date={val.date} title={val.title} text={val.text} /></Link>
+                <Link to={`/post/${key}`} key={key}><CardPost date={val.date} title={val.title} description={val.description} /></Link>
             );
           })}
         </>
