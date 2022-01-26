@@ -6,4 +6,8 @@ export const DatePost = styled.span`
 
     display: block;
     margin-bottom: .5rem;
+
+    @media (min-width: 1025px){
+        font-size: 1.6rem;
+    }
 `;

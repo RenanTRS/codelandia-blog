@@ -20,4 +20,10 @@ export const Input = styled.input`
     &::placeholder{
         color: #fff;
     }
+
+    @media (min-width: 1025px){
+        font-size: 1.8rem;
+
+        height: 6.5rem;
+    }
 `;

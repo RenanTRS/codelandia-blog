@@ -6,4 +6,12 @@ export const DateContainer = styled.div`
     align-items: center;
 
     margin-bottom: 2.5rem;
+
+    img{
+        width: 1.9rem;
+
+        @media (min-width: 1025px){
+            width: 2.2rem;
+        }
+    }
 `;
