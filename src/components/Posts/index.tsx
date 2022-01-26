@@ -1,6 +1,5 @@
 import React, {useContext} from 'react';
 import {SearchContext} from '../../context/SearchContext'
-import {Link} from 'react-router-dom';
 
 import fakeData from '../../fakeData.json';
 
@@ -19,7 +18,7 @@ export const Posts = () => {
             }
           }).map((val, key) =>{
             return (
-                <Link to={`/post/${key}`} key={key}><CardPost date={val.date} title={val.title} description={val.description} /></Link>
+                <CardPost key={key} date={val.date} title={val.title} description={val.description} index={key}/> 
             );
           })}
         </>
