@@ -1,4 +1,4 @@
-# Nome do projeto
+# Codelândia Blog
 <img src="./design/desktop-1.png" width="50%"><img src="./design/desktop-2.png" width="50%">
 <img src="./design/mobile-1.jpg" width="30%"><img src="./design/mobile-2.jpg" width="30%">
 
